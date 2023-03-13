@@ -104,6 +104,33 @@ class HomePage extends StatelessWidget {
                       },
                     ),
                   ),
+                  Padding(
+                    padding: const EdgeInsets.only(
+                      top: 20.0,
+                      left: 10,
+                      bottom: 5,
+                    ),
+                    child:
+                        'Tips of the day: Use public transport instead of your personal vehicle.  '
+                            .text
+                            .color(Colors.white)
+                            .minFontSize(26)
+                            //.fontWeight(FontWeight.w700)
+                            .make(),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(
+                      top: 20.0,
+                      left: 10,
+                      bottom: 5,
+                    ),
+                    child: 'Worst Factory: Nestlé '
+                        .text
+                        .color(Colors.white)
+                        .minFontSize(26)
+                        //.fontWeight(FontWeight.w700)
+                        .make(),
+                  ),
                 ],
               ),
             ),

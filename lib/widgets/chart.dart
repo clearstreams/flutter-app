@@ -38,7 +38,7 @@ class Chart extends StatelessWidget {
           ),
         ),
         enableAxisAnimation: true,
-        borderColor: const Color.fromARGB(255, 17, 38, 93),
+        borderColor: Color.fromARGB(255, 44, 44, 44),
         borderWidth: 2,
         plotAreaBackgroundColor: Colors.white10,
         title: ChartTitle(
@@ -47,7 +47,7 @@ class Chart extends StatelessWidget {
               color: Colors.white,
               fontSize: 14,
             )),
-        backgroundColor: const Color.fromARGB(255, 4, 11, 58),
+        backgroundColor: Color.fromARGB(255, 72, 72, 72),
         tooltipBehavior: TooltipBehavior(
           enable: true,
           color: Colors.white,

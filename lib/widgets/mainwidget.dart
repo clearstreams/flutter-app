@@ -167,6 +167,22 @@ class MainWidget extends StatelessWidget {
                     overflow: TextOverflow.ellipsis,
                   ),
                 ),
+                Container(
+                  margin: const EdgeInsets.only(top: 5),
+                  width: Get.width * 0.4,
+                  child: AutoSizeText(
+                    'Air quality: Bad',
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 16,
+                      //fontWeight: FontWeight.w500,
+                    ),
+                    minFontSize: 14,
+                    stepGranularity: 1,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
               ],
             ),
           ),
