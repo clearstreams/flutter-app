@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 class WeatherServices {
   String apikey =
-      '6d1823daf74a63f695376b0a500e23a8'; //api key from openweathermap.org to be added here
+      ''; //api key from openweathermap.org to be added here
 
   Future<WeatherDataModel?> fetchDatafromApi(String city) async {
     var response = await http.get(Uri.parse(
